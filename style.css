@@ -424,7 +424,8 @@ font-size: 20px;
 	position: relative;
 	overflow: hidden;
 	display: inline-block;
-
+	align-self: center;
+	height: 100%;
 }
 
 .container5 .grid_5 .item h6{
@@ -457,8 +458,8 @@ font-size: 20px;
 
 .container5 .item:hover {
 	box-shadow: 0 0px 25px 10px rgba(0,0,0,.15);
-	height: 100%; 
-}
+/* 	height: 100%; 
+ */}
 .view_more a:hover i{
 	color:#000000;
 }
@@ -466,7 +467,8 @@ font-size: 20px;
 	color:#000000;
 }
 .container5 .item img{
-	height: 100%;}
+	/* height: 100%; */
+}
     
 
 
