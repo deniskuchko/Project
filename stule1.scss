@@ -1,0 +1,126 @@
+$color7h2:#000000;
+$font_size30: 30px;
+$font_size20:20px;
+$color7p:#999999;
+$font_size14: 14px;
+$font_size10:10px;
+
+$text-transform: uppercase;
+$padding0:0px;
+$background:rgb(246, 246, 239) ;
+
+.container7{
+    .center{
+        .item1{
+            background-color: white;
+            border: none;
+            padding: 0!important;
+            p{
+                color: $color7p;
+                font-size: $font_size14;
+                line-height: 1.5;
+            }
+            h5{
+                color: $color7h2;
+                font-size: $font_size30;
+                text-transform: $text-transform;
+                
+
+            }
+        }
+        .item{
+            border: none;
+            padding: 36px 30px;
+            margin:0 64px 45 0px;
+            
+            .play{
+                filter: grayscale(0%);
+                    &:hover{
+                        filter: grayscale(100%);
+                    }
+                .item-caption{
+                    background: none;
+                }
+                .view_more{
+                    i{
+                        font-size: $font_size30;
+                        top: -15px;
+                        &:hover { color: $color7p; }
+                    }
+                    
+                }
+               
+            }
+            p{
+                color: $color7p;
+                font-size: $font_size10;
+                line-height: 1.5;
+                
+            }
+            h5{
+                color: $color7h2;
+                font-size: $font_size14;
+                max-width: 178px;
+            }
+
+            footer{
+                display: flex;
+                justify-content: flex-end;
+                background-color: rgb(246, 246, 239);
+                height: 27px;
+            }
+                .social{
+                    p{
+                        color: $color7h2;
+                        font-size: $font_size10;
+                        text-transform: $text-transform;
+                    }
+                    i{
+                        font-size: $font_size14;
+                        color: $color7p;
+                        &:hover { color: $color7h2; }
+                    }
+                }
+            .text1{
+                .card3_5{
+                    display: block;
+                    position: absolute;
+                    bottom: 15px;
+                    span{
+                        p{
+                            color: $color7p;
+                            font-size: $font_size10;
+                            line-height: 1.5;
+                        }
+                    }
+                }
+                h5{
+                    color: $color7h2;
+                    font-size: $font_size14;
+                    line-height: 1.5;
+                    padding-bottom: 23px;
+                    
+                }
+            }
+        }
+    }
+}
+
+footer{
+    .item{
+        .form_message{
+            background-color: #171515!important;
+            border: none;
+            border-bottom: 1px solid #515050; 
+    
+        }
+    }
+    .social{
+            span{
+                i{
+                    margin:0 3px;
+                }
+            }
+    }
+    
+}

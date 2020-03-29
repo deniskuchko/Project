@@ -1,0 +1,114 @@
+.container7 .center .item1 {
+  background-color: white;
+  border: none;
+  padding: 0 !important;
+}
+
+.container7 .center .item1 p {
+  color: #999999;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.container7 .center .item1 h5 {
+  color: #000000;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.container7 .center .item {
+  border: none;
+  padding: 36px 30px;
+  margin: 0 64px 45 0px;
+}
+
+.container7 .center .item .play {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.container7 .center .item .play:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.container7 .center .item .play .item-caption {
+  background: none;
+}
+
+.container7 .center .item .play .view_more i {
+  font-size: 30px;
+  top: -15px;
+}
+
+.container7 .center .item .play .view_more i:hover {
+  color: #999999;
+}
+
+.container7 .center .item p {
+  color: #999999;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.container7 .center .item h5 {
+  color: #000000;
+  font-size: 14px;
+  max-width: 178px;
+}
+
+.container7 .center .item footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #f6f6ef;
+  height: 27px;
+}
+
+.container7 .center .item .social p {
+  color: #000000;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.container7 .center .item .social i {
+  font-size: 14px;
+  color: #999999;
+}
+
+.container7 .center .item .social i:hover {
+  color: #000000;
+}
+
+.container7 .center .item .text1 .card3_5 {
+  display: block;
+  position: absolute;
+  bottom: 15px;
+}
+
+.container7 .center .item .text1 .card3_5 span p {
+  color: #999999;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.container7 .center .item .text1 h5 {
+  color: #000000;
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 23px;
+}
+
+footer .item .form_message {
+  background-color: #171515 !important;
+  border: none;
+  border-bottom: 1px solid #515050;
+}
+
+footer .social span i {
+  margin: 0 3px;
+}
+/*# sourceMappingURL=stule1.css.map */
