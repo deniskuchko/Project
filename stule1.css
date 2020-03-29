@@ -1,3 +1,8 @@
+@charset "UTF-8";
+.container3 .social .span {
+  color: green;
+}
+
 .container7 .center .item1 {
   background-color: white;
   border: none;
@@ -110,5 +115,53 @@ footer .item .form_message {
 
 footer .social span i {
   margin: 0 3px;
+  color: #999999;
 }
+
+footer .social span i:hover {
+  color: #000000;
+}
+
+/* mixin для <h3> 3-го и 5-го контейнера  */
+.h3_cont3 {
+  font-family: 'Lato-Regular';
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 84px;
+  margin-left: 70px;
+  max-width: 560px;
+}
+
+.h3_cont5 {
+  display: inline-block;
+  font-family: 'Lato-Regular';
+  font-size: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+/* mixin для <p> 6-го контейнера  */
+.p1_cont6 {
+  font-family: 'Lato-Regular';
+  font-size: 18px;
+  color: #ffffff;
+  padding-left: 100px;
+  line-height: 1.5;
+}
+
+/* Функции */
+/* @function max(:100%) {}
+
+.item-caption  {
+    display: none;
+	cursor: default;
+	position: absolute;
+	width: max;
+	height: max;
+	background: rgba(144, 140, 121, 0.5);
+    padding-top: max - 70%;
+	text-align: center;
+	opacity: 0.5;
+} */
 /*# sourceMappingURL=stule1.css.map */

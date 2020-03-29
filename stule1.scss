@@ -9,6 +9,14 @@ $text-transform: uppercase;
 $padding0:0px;
 $background:rgb(246, 246, 239) ;
 
+.container3{
+    .social{
+        .span{
+            color: green;
+        }
+    }
+}
+
 .container7{
     .center{
         .item1{
@@ -117,10 +125,60 @@ footer{
     }
     .social{
             span{
-                i{
-                    margin:0 3px;
-                }
+                    i{
+                        margin:0 3px;
+                        color: $color7p;
+                        &:hover { color: $color7h2; }
+                    }
             }
     }
     
 }
+/* mixin для <h3> 3-го и 5-го контейнера  */
+@mixin flexh3 () {
+    font-family: 'Lato-Regular';
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+  
+.h3_cont3 {
+    @include flexh3 ();
+    margin-bottom: 84px;
+    margin-left: 70px;
+    max-width: 560px;
+}
+
+.h3_cont5 {
+    display: inline-block;
+    @include flexh3 ();
+}  
+
+/* mixin для <p> 6-го контейнера  */
+@mixin flexp () {
+    font-family: 'Lato-Regular';
+    font-size: 18px;
+    color:#ffffff;
+    }
+
+.p1_cont6 {
+    @include flexp ();
+    padding-left: 100px;
+    line-height: 1.5;
+}
+
+/* Функции */
+
+/* @function max(:100%) {}
+
+.item-caption  {
+    display: none;
+	cursor: default;
+	position: absolute;
+	width: max;
+	height: max;
+	background: rgba(144, 140, 121, 0.5);
+    padding-top: max - 70%;
+	text-align: center;
+	opacity: 0.5;
+} */
